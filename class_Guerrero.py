@@ -1,5 +1,5 @@
-from SerVivo import SerVivo
-from Utilidades import *
+from class_SerVivo import *
+#from Utilidades import *
 
 class Guerrero(SerVivo):
     __max_target = 10
@@ -54,6 +54,8 @@ class Guerrero(SerVivo):
         states
         '''
         return self._name
+
+def generaIntAleatorio(numero, )
 
     @staticmethod
     def get_maxTarget():
