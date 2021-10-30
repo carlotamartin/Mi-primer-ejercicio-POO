@@ -5,3 +5,4 @@ class SerVivo:
         return self._vivo
     def morir(self):
         self._vivo= False
+#Se pone _ porque es una clase abstracta y solo se puede usar en esta clase
