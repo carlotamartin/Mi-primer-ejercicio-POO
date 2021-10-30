@@ -1,5 +1,6 @@
-from class_Guerrero import *
-from class_Marciano import *
+from class_Guerrero import Guerrero
+from class_Marciano import Marciano
+from Utilities import Utilities
 
 
 class Terricola(Guerrero):
