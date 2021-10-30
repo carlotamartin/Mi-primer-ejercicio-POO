@@ -6,3 +6,4 @@ class SerVivo:
     def morir(self):
         self._vivo= False
 #Se pone _ porque es una clase abstracta y solo se puede usar en esta clase
+#Se pone __ porque es una clase privada solo la usa cada clase
