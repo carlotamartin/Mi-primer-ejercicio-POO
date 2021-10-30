@@ -1,7 +1,5 @@
 from class_Guerrero import *
 
-
-
 class Marciano(Guerrero):
     __totalMarcianosAlive = 0
     __shotsToKillAMarciano = 3
@@ -10,8 +8,10 @@ class Marciano(Guerrero):
         Guerrero.__init__(self, name)
         self.__shotsToReceive = Marciano.__shotsToKillAMarciano
         Marciano.__totalMarcianosAlive += 1
+
     def get_shotsToReceive(self):
         return self.__shotsToReceive
+
     # Overrides the method get_shot from the parent class!
     def get_shot(self, shot):
         '''
@@ -36,9 +36,8 @@ class Marciano(Guerrero):
         '''
         return Marciano.__totalMarcianosAlive
     @staticmethod
-    def get_total_marcianos_alive():
+    def get_total_marcianos_dead():
         '''
-
         :returns the shots needed to kill a marciano
         '''
         return Marciano.__shotsToKillAMarciano
